@@ -16,6 +16,8 @@ export default function useCachedResources() {
         await Font.loadAsync({
           ...FontAwesome.font,
           'space-mono': require('../assets/fonts/SpaceMono-Regular.ttf'),
+          'ibarra-reg': require('../assets/fonts/IbarraRealNova-Regular.ttf'),
+          'ibarra-bold': require('../assets/fonts/IbarraRealNova-Bold.ttf'),
         });
       } catch (e) {
         // We might want to provide this error information to an error reporting service
