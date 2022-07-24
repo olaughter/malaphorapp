@@ -1,5 +1,5 @@
-import { Animated, Pressable, StyleSheet, Dimensions, Alert } from 'react-native';
-import React, {  useRef, useEffect, useState } from 'react';
+import { Animated, Pressable, StyleSheet, Dimensions } from 'react-native';
+import React, {  useRef, useState } from 'react';
 import * as Clipboard from 'expo-clipboard';
 import AwesomeButton from "react-native-really-awesome-button";
 
@@ -42,15 +42,15 @@ export default function MainScreen({ navigation }: RootTabScreenProps<'TabOne'>)
     setMalaphorText(NewMalaphor())
   };
 
-  const copyToClipboard = async () => {
-    await Clipboard.setStringAsync(MalaphorText);
+  const copyToClipboard = async (text: string) => {
+    await Clipboard.setStringAsync(text);
   };
 
   return (
     <View style={styles.background}>
       <View style={styles.container}>
         <View style={styles.top_section}>
-          <Pressable onPress={() => {fadeIn();}}>
+          <Pressable onPress={() => {copyToClipboard(MalaphorText); fadeIn();}}>
             <View style={styles.malaphor_section}>
               <Text style={styles.malaphor_text}>{MalaphorText}</Text>
             </View>
@@ -71,7 +71,7 @@ export default function MainScreen({ navigation }: RootTabScreenProps<'TabOne'>)
             backgroundColor={setButtonBackgroundColor()}
             backgroundDarker={setButtonBackgroundDarker()}
             style={{}}
-            ><Text style={styles.button_text}>Mala-more</Text>
+            ><Text style={styles.button_text}>More!</Text>
             </AwesomeButton> 
         </View>
       </View>
