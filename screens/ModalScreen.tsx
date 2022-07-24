@@ -6,8 +6,14 @@ import { Text, View } from '../components/Themed';
 export default function ModalScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Modal</Text>
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+      <Text style={styles.description}>
+        A Malaphor is a mix up of multiple idioms or phrases.
+        The Malaphor Maker is trained on a list of over 2,000
+        english phrases, and generates original Malaphors on
+        every press. Some of the sample phrases were not all
+        that great in the first place — so maybe try and
+        take them with a grain of sand!
+      </Text>
 
       {/* Use a light status bar on iOS to account for the black space above the modal */}
       <StatusBar style={Platform.OS === 'ios' ? 'light' : 'auto'} />
@@ -19,15 +25,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    justifyContent: 'center',
   },
-  title: {
-    fontSize: 20,
-    fontWeight: 'bold',
-  },
-  separator: {
-    marginVertical: 30,
-    height: 1,
+  description: {
     width: '80%',
+    marginTop: 20,
+    fontSize: 24,
+    fontFamily: 'ibarra-reg',
   },
 });

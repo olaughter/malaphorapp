@@ -43,3 +43,23 @@ export function View(props: ViewProps) {
 
   return <DefaultView style={[{ backgroundColor }, style]} {...otherProps} />;
 }
+
+export function setButtonBackgroundColor() {
+  let colorScheme = useColorScheme();
+
+  if (colorScheme === 'dark') {
+    return '#3C4042'
+  } else {
+    return '#fff'
+  }; 
+};
+
+export function setButtonBackgroundDarker() {
+  let colorScheme = useColorScheme();
+
+  if (colorScheme === 'dark') {
+    return '#606368'
+  } else {
+    return '#C0C0C0'
+  };
+};

@@ -17,7 +17,7 @@ A diamond is forever
 A different kettle of fish
 A dish fit for the gods
 A dog is a man's best friend
-A dog is a� man's best friend
+A dog is a man's best friend
 A drop in the bucket
 A drop in the ocean
 A fate worse than death
@@ -161,7 +161,7 @@ Angry young man
 Ankle biter
 Annus horribilis
 Another think coming
-An� eye for an eye, a tooth for a tooth
+An eye for an eye, a tooth for a tooth
 Apple pie order
 April fool
 Ars longa, vita brevis
@@ -211,10 +211,10 @@ As thick as two short planks
 As white as snow
 Ashes to ashes dust to dust
 Ask a silly question and you'll get a silly answer
-Ask not� for whom the bell tolls
-As� different as chalk and cheese
-As� thick as thieves
-As� thick as two short planks
+Ask not for whom the bell tolls
+As different as chalk and cheese
+As thick as thieves
+As thick as two short planks
 At loggerheads
 At one fell swoop
 At one's beck and call
@@ -223,9 +223,9 @@ At sixes and sevens
 Augur well
 Auld lang syne
 Away with the fairies
-A� Dog is a man's best friend
-A� bigger bang for your buck
-A� watched pot never boils
+A Dog is a man's best friend
+A bigger bang for your buck
+A watched pot never boils
 Baby blues
 Baby boomer
 Baby father
@@ -304,7 +304,7 @@ Between two stools
 Between you, me and the bed post
 Beware of Greeks bearing gifts
 Beware the Ides of March
-Beware the� Ides of March
+Beware the Ides of March
 Beyond belief
 Beyond our ken
 Beyond the pale
@@ -330,7 +330,7 @@ Blood toil tears and sweat
 Blood, sweat and tears
 Bloody minded
 Blot on the landscape
-Blow a raspberry � see� raspberry tart
+Blow a raspberry  see raspberry tart
 Blow your mind
 Blow your own trumpet
 Blown to smithereens
@@ -400,14 +400,14 @@ By the board
 By the book
 By the short hairs
 By the skin of your teeth
-By the� skin of your teeth
+By the skin of your teeth
 By your leave
 Caesar Salad
 Call a spade a spade
 Can't be overestimated
 Can't be underestimated
 Can't hold a candle to
-Can't� hold a candle to
+Can't hold a candle to
 Canteen culture
 Canterbury pace
 Carbon copy
@@ -485,7 +485,7 @@ Come clean
 Come on down
 Come up trumps
 Come what come may
-Coming in� on a wing and a prayer
+Coming in on a wing and a prayer
 Common sense
 Comparisons are odious
 Compassion fatigue
@@ -706,7 +706,7 @@ Fool's errand
 Fool's gold
 Fools rush in where angels fear to tread
 For all intents and purposes
-For all� intents and purposes
+For all intents and purposes
 For crying out loud
 For ever and a day
 For every thing there is a season
@@ -737,7 +737,7 @@ Full tilt
 Full to the gunwales
 Funny farm
 Fuzzy wuzzy
-Gad zooks�
+Gad zooks
 Gadzooks
 Game of two halves
 Gee whiz
@@ -759,7 +759,7 @@ Get underway
 Get used to it
 Get your dander up
 Get your goat
-Get� underway
+Get underway
 Giddy aunt
 Giddy goat
 Gild the lily
@@ -795,7 +795,7 @@ Go to pot
 Go to the dogs
 Go to the foot of our stairs
 Go to the mattresses
-Go to� Hell in a handbasket
+Go to Hell in a handbasket
 God bless you!
 God is dead
 God rot them
@@ -970,7 +970,7 @@ In a pig's eye
 In a quandary
 In a trice
 In an interesting condition
-In a� pig's eye
+In a pig's eye
 In for a penny, in for a pound
 In like Flynn
 In limbo
@@ -994,7 +994,7 @@ In the nick of time
 In the pink
 In the red
 In the same boat
-In the� nick of time
+In the nick of time
 In your face
 Indian giver
 Indian summer
@@ -1015,9 +1015,9 @@ It's better to give than to receive
 It's better to have loved and lost than never to have loved at all
 It's better to light a candle than curse the darkness
 It's not rocket science
-It's not� rocket science
+It's not rocket science
 It's that man again
-It� fell off the back of a truck
+It fell off the back of a truck
 Ivory tower
 Jack Palancing
 Jack in the box
@@ -1251,7 +1251,7 @@ My old Dutch
 My old china
 My salad days
 My stars and garters
-Ménage � trois
+Ménage  trois
 Nail your colours to the mast
 Namby pamby
 Name and shame
@@ -1260,7 +1260,7 @@ Nasty, brutish and short
 Nautical phrases
 Ne'er cast a clout till May be out
 Ne'er do well
-Ne'er� cast a clout till May be out
+Ne'er cast a clout till May be out
 Near the knuckle
 Necessity is the mother of invention
 Needs must
@@ -1328,7 +1328,7 @@ Old hat
 On Carey Street
 On a hiding to nothing
 On a wing and a prayer
-On a� wing and a prayer
+On a wing and a prayer
 On cloud nine
 On queer street
 On tenterhooks
@@ -1709,11 +1709,11 @@ Take the gilt off the gingerbread
 Take the upper hand
 Take umbrage
 Take with a grain of salt
-Take with a� grain of salt
-Take with a� pinch of salt
+Take with a grain of salt
+Take with a pinch of salt
 Taken aback
 Taken for a ride
-Take� potluck
+Take potluck
 Talk of the Devil
 Talk the talk
 Talk through one's hat
@@ -1793,7 +1793,7 @@ The full monty
 The game is afoot
 The game is up
 The great unwashed
-The great� unwashed
+The great unwashed
 The hair of the dog that bit you
 The hairy eyeball
 The heebie jeebies
@@ -1812,7 +1812,7 @@ The mutt's nuts
 The nth degree
 The opera ain't over till the fat lady sings
 The pen is mightier than the sword
-The pen is� mightier than the sword
+The pen is mightier than the sword
 The pot calling the kettle black
 The powers that be
 The proof of the pudding is in the eating
@@ -1839,8 +1839,8 @@ The usual suspects
 The whole kit and caboodle
 The whole nine yards
 The whole shebang
-The whole� kit and caboodle
-The word� fast, and phrases that derive from it.
+The whole kit and caboodle
+The word fast, and phrases that derive from it.
 The writing is on the wall
 The writings of thomas Paine
 The wrong end of the stick
@@ -1858,12 +1858,12 @@ There's no such thing as a free lunch
 There's no such thing as bad publicity
 There's one born every minute
 They couldn't hit an elephant at this distance
-The� fat of the land
-The� law is an ass
-The� order of the boot
-The� pen is mightier than the sword
-The� penny drops
-The� sky's the limit
+The fat of the land
+The law is an ass
+The order of the boot
+The pen is mightier than the sword
+The penny drops
+The sky's the limit
 Thick and fast
 Thick and thin
 Things that go bump in the night
@@ -1916,7 +1916,7 @@ Tommy Atkins
 Tomorrow is another day
 Tongue in cheek
 Too big for your breeches
-Too big for your� boots
+Too big for your boots
 Too much of a good thing
 Toodle oo
 Tooth and nail
