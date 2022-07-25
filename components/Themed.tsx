@@ -7,6 +7,16 @@ import { Text as DefaultText, View as DefaultView } from 'react-native';
 
 import Colors from '../constants/Colors';
 import useColorScheme from '../hooks/useColorScheme';
+import screenSize from '../constants/Layout';
+
+export const FontSizes = {
+  'malaphor_text': screenSize.isSmallDevice ? 28 : 34,
+  'copied_text': screenSize.isSmallDevice ? 16 : 20,
+  'button_text': screenSize.isSmallDevice ? 24 : 30,
+  'modal_description': screenSize.isSmallDevice ? 18 : 24,
+};
+
+console.log(screenSize.isSmallDevice)
 
 export function useThemeColor(
   props: { light?: string; dark?: string },
@@ -60,6 +70,6 @@ export function setButtonBackgroundDarker() {
   if (colorScheme === 'dark') {
     return '#606368'
   } else {
-    return '#C0C0C0'
+    return '#5F5F5F'
   };
 };
