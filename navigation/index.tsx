@@ -39,7 +39,6 @@ function RootNavigator() {
   
   return (
     <Stack.Navigator>
-      {/* TODO: ADD HELP MODAL BUTTON */}
       <Stack.Screen 
         name="Root"
         component={MainScreen}

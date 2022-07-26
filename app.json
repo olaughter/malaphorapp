@@ -1,16 +1,17 @@
 {
   "expo": {
     "name": "malaphor-machine",
-    "slug": "malaphor-machine",
+    "slug": "malaphor-maker",
+    "owner": "olaughter",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#E1D9D1"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,12 +24,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#E1D9D1"
+      },
+      "package": "com.olaughter.malaphormaker"
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.ico"
     }
   }
 }
