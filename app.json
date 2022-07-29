@@ -20,7 +20,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.olaughter.malaphormaker"
     },
     "android": {
       "versionCode": 2,

@@ -2,7 +2,7 @@ import { Animated, Pressable, StyleSheet, Dimensions } from 'react-native';
 import React, {  useRef, useState } from 'react';
 import * as Clipboard from 'expo-clipboard';
 
-import AwesomeButton from "../components/react-native-really-awesome-button/index";
+import AwesomeButton from "../components/awesome-button/index";
 import { setButtonBackgroundColor, setButtonBackgroundDarker, Text, View, FontSizes } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
 import model_json from '../assets/model.json';
