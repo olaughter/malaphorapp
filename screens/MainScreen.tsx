@@ -54,6 +54,7 @@ export default function MainScreen({ navigation }: RootTabScreenProps<'TabOne'>)
                 name="share-square-o"
                 size={30}
                 color={Colors[colorScheme].text}
+                style={styles.share_icon}
               />
             </View>
           </Pressable>
@@ -110,6 +111,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     height: '15%',
     justifyContent: 'center',
+  },
+  share_icon: {
+    opacity: 0.5
   },
   separator: {
     alignSelf:'center',
