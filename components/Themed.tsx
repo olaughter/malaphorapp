@@ -16,8 +16,6 @@ export const FontSizes = {
   'modal_description': screenSize.isSmallDevice ? 18 : 24,
 };
 
-console.log(screenSize.isSmallDevice)
-
 export function useThemeColor(
   props: { light?: string; dark?: string },
   colorName: keyof typeof Colors.light & keyof typeof Colors.dark
