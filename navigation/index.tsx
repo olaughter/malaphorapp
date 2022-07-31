@@ -59,7 +59,10 @@ function RootNavigator() {
                   name="question-circle-o"
                   size={25}
                   color={Colors[colorScheme].text}
-                  style={{ marginRight: 15 }}
+                  style={{
+                    marginHorizontal: 15,
+                    marginVertical: 3,
+                  }}
                 />
             </Pressable>
           ),         
