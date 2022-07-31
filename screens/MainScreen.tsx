@@ -1,5 +1,5 @@
-import { Animated, Pressable, StyleSheet, Dimensions } from 'react-native';
-import React, {  useRef, useState } from 'react';
+import { Share, Pressable, StyleSheet, Dimensions } from 'react-native';
+import React, { useState } from 'react';
 import * as Clipboard from 'expo-clipboard';
 
 import { FontAwesome } from '@expo/vector-icons';
@@ -34,15 +34,31 @@ export default function MainScreen({ navigation }: RootTabScreenProps<'TabOne'>)
     setMalaphorText(NewMalaphor())
   };
 
-  const copyToClipboard = async (text: string) => {
-    await Clipboard.setStringAsync(text);
+  const onShare = async (text: string) => {
+    try {
+      const result = await Share.share({
+        message: '"' + text + '" - The Malaphor Maker',
+      });
+      if (result.action === Share.sharedAction) {
+        if (result.activityType) {
+          // shared with activity type of result.activityType
+        } else {
+          // shared
+        }
+      } else if (result.action === Share.dismissedAction) {
+        alert("Sorry, something went wrong with sharing");
+      }
+    } catch (error) {
+      alert("Sorry, something went wrong with sharing");
+    }
+    
   };
 
   return (
     <View style={styles.background}>
       <View style={styles.container}>
         <View style={styles.top_section}>
-          <Pressable onPress={() => {copyToClipboard(MalaphorText);}}>
+          <Pressable onPress={() => {onShare(MalaphorText);}}>
             <View style={styles.malaphor_section}>
               <Text
                 style={styles.malaphor_text}
@@ -52,7 +68,7 @@ export default function MainScreen({ navigation }: RootTabScreenProps<'TabOne'>)
             <View style={styles.share_container}>
               <FontAwesome
                 name="share-square-o"
-                size={30}
+                size={28}
                 color={Colors[colorScheme].text}
                 style={styles.share_icon}
               />
