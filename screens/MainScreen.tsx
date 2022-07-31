@@ -2,12 +2,15 @@ import { Animated, Pressable, StyleSheet, Dimensions } from 'react-native';
 import React, {  useRef, useState } from 'react';
 import * as Clipboard from 'expo-clipboard';
 
+import { FontAwesome } from '@expo/vector-icons';
 import AwesomeButton from "../components/awesome-button/index";
 import { setButtonBackgroundColor, setButtonBackgroundDarker, Text, View, FontSizes } from '../components/Themed';
 import { RootTabScreenProps } from '../types';
 import model_json from '../assets/model.json';
 import markovify from 'markovify';
 
+import Colors from '../constants/Colors';
+import useColorScheme from '../hooks/useColorScheme';
 
 // TODO: Move to app load, better yet. save model!
 // TODO: Fork Repo or something(contriubte?)
@@ -25,19 +28,9 @@ function NewMalaphor() {
 export default function MainScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
   const screen_height = Dimensions.get('window').height;
   const [MalaphorText, setMalaphorText] = useState(NewMalaphor());
-  const fadeAnim = useRef(new Animated.Value(0)).current;
-  
-  const fadeIn = () => {
-    fadeAnim.setValue(0);
-    Animated.timing(fadeAnim, {
-      toValue: 1,
-      duration: 500,
-      useNativeDriver: true,
-    }).start();
-  };
+  let colorScheme = useColorScheme();
 
   function UpdateMalaphor() {
-    fadeAnim.setValue(0);
     setMalaphorText(NewMalaphor())
   };
 
@@ -49,16 +42,20 @@ export default function MainScreen({ navigation }: RootTabScreenProps<'TabOne'>)
     <View style={styles.background}>
       <View style={styles.container}>
         <View style={styles.top_section}>
-          <Pressable onPress={() => {copyToClipboard(MalaphorText); fadeIn();}}>
+          <Pressable onPress={() => {copyToClipboard(MalaphorText);}}>
             <View style={styles.malaphor_section}>
               <Text
                 style={styles.malaphor_text}
                 numberOfLines={5}
                 >{MalaphorText}</Text>
             </View>
-            <Animated.View style={[styles.copied_section, {opacity: fadeAnim}]}>
-              <Text style={styles.copied_text}>Copied</Text>
-            </Animated.View>
+            <View style={styles.share_container}>
+              <FontAwesome
+                name="share-square-o"
+                size={30}
+                color={Colors[colorScheme].text}
+              />
+            </View>
           </Pressable>
         </View>
 
@@ -109,16 +106,10 @@ const styles = StyleSheet.create({
     fontFamily: 'ibarra-bold',
     textAlign: 'center',
   },
-  copied_section: {
-    borderWidth: DEBUG,
+  share_container: {
+    alignItems: 'center',
     height: '15%',
-    justifyContent: 'flex-end',
-  },
-  copied_text: {
-    fontFamily: 'ibarra-bold',
-    textAlign: 'center',
-    fontSize: FontSizes.copied_text,
-    lineHeight: FontSizes.copied_text
+    justifyContent: 'center',
   },
   separator: {
     alignSelf:'center',
