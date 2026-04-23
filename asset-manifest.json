@@ -1,0 +1,37 @@
+{
+  "files": {
+    "app.js": "/malaphorapp/static/js/app.be6a423e.chunk.js",
+    "app.js.map": "/malaphorapp/static/js/app.be6a423e.chunk.js.map",
+    "runtime~app.js": "/malaphorapp/static/js/runtime~app.8de2ac81.js",
+    "runtime~app.js.map": "/malaphorapp/static/js/runtime~app.8de2ac81.js.map",
+    "static/js/2.33b27dac.chunk.js": "/malaphorapp/static/js/2.33b27dac.chunk.js",
+    "static/js/2.33b27dac.chunk.js.map": "/malaphorapp/static/js/2.33b27dac.chunk.js.map",
+    "fonts/AntDesign.ttf": "/malaphorapp/./fonts/AntDesign.ttf",
+    "fonts/Entypo.ttf": "/malaphorapp/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/malaphorapp/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/malaphorapp/./fonts/FontAwesome.ttf",
+    "fonts/FontAwesome5_Brands.ttf": "/malaphorapp/./fonts/FontAwesome5_Brands.ttf",
+    "fonts/FontAwesome5_Solid.ttf": "/malaphorapp/./fonts/FontAwesome5_Solid.ttf",
+    "fonts/Fontisto.ttf": "/malaphorapp/./fonts/Fontisto.ttf",
+    "fonts/Foundation.ttf": "/malaphorapp/./fonts/Foundation.ttf",
+    "fonts/IbarraRealNova-Bold.ttf": "/malaphorapp/./fonts/IbarraRealNova-Bold.ttf",
+    "fonts/IbarraRealNova-Regular.ttf": "/malaphorapp/./fonts/IbarraRealNova-Regular.ttf",
+    "fonts/Ionicons.ttf": "/malaphorapp/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/malaphorapp/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/malaphorapp/./fonts/MaterialIcons.ttf",
+    "fonts/SimpleLineIcons.ttf": "/malaphorapp/./fonts/SimpleLineIcons.ttf",
+    "fonts/SpaceMono-Regular.ttf": "/malaphorapp/./fonts/SpaceMono-Regular.ttf",
+    "favicon-16.png": "/malaphorapp/favicon-16.png",
+    "favicon-32.png": "/malaphorapp/favicon-32.png",
+    "favicon.ico": "/malaphorapp/favicon.ico",
+    "index.html": "/malaphorapp/index.html",
+    "manifest.json": "/malaphorapp/manifest.json",
+    "serve.json": "/malaphorapp/serve.json",
+    "static/js/2.33b27dac.chunk.js.LICENSE.txt": "/malaphorapp/static/js/2.33b27dac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime~app.8de2ac81.js",
+    "static/js/2.33b27dac.chunk.js",
+    "static/js/app.be6a423e.chunk.js"
+  ]
+}
